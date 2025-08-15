@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sudoku</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Sudoku</h1>
+    <div class="toolbar">
+      <button id="btn-check">Check</button>
+      <button id="btn-solve" class="primary">Solve</button>
+      <button id="btn-reset">Reset</button>
+      <button id="btn-new">New Easy</button>
+    </div>
+    <div id="status" class="status"></div>
+    <div id="board" class="board" aria-label="Sudoku board"></div>
+    <div class="legend">Type numbers 1–9. Conflicts highlight in red. “Solve” uses backtracking.</div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
